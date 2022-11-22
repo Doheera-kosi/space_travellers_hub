@@ -1,11 +1,20 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
 const Header = () => (
-  <header>
-    <img alt="top-logo" src={logo} className="top-logo" />
-    <nav />
-  </header>
+  <nav className="navBar">
+    <div className="Logo">
+      <img className="top-logo" src={logo} alt="logo" />
+      <h1>Space Travelers Hub</h1>
+    </div>
+    <ul className="links">
+      <NavLink className="link" to="/">Rockets</NavLink>
+      <NavLink className="link" to="/">Missions</NavLink>
+      <vl className="vl" />
+      <NavLink className="link" to="/">My Profile</NavLink>
+    </ul>
+  </nav>
 );
 
 export default Header;
