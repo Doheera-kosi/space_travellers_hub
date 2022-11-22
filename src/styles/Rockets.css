@@ -1,0 +1,14 @@
+.rocket-container {
+  margin-left: 30px;
+  display: flex;
+}
+
+.rocket-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocket-img {
+  width: 100px;
+  height: 100px;
+}
