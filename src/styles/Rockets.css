@@ -1,6 +1,7 @@
 .rocket-container {
-  margin-left: 30px;
   display: flex;
+  margin: 20px 50px;
+  gap: 20px;
 }
 
 .rocket-details {
@@ -9,6 +10,5 @@
 }
 
 .rocket-img {
-  width: 100px;
-  height: 100px;
+  width: 400px;
 }
