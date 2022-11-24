@@ -6,6 +6,10 @@
   margin-bottom: 2rem;
 }
 
+.mission__container {
+  margin-top: 4rem;
+}
+
 .column {
   border: 1px solid #ddd;
   text-align: left;
@@ -16,4 +20,35 @@
 .head {
   font-size: 1.3rem;
   padding: 10px;
+}
+
+.button:hover {
+  background: rgb(17, 235, 17);
+}
+
+.buttonLeave {
+  font-size: 1.2rem;
+  background: rgb(202, 7, 7);
+  border-radius: 5px;
+  min-width: 135px;
+  border-color: #444a4f;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ActiveStatus {
+  color: #fff;
+  background: #ffa500;
+  font-weight: bold;
+  min-width: 116px;
+  padding: 2px 1rem 2px 1rem;
+  border-radius: 6px;
+  margin: 0 1rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.profile-main {
+  padding: 0 4rem;
 }
