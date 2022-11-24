@@ -1,13 +1,21 @@
 .profile-main {
   display: flex;
-  gap: 100px;
+  margin: 20px 80px;
+  gap: 20px;
 }
 
-.profile-rockets {
-  border: 1px solid #000;
+.reserve-container {
+  border: 2px solid black;
+  width: 40vw;
 }
 
-.profile-res-rocket {
-  border: 1px solid #000;
+.reserve-item {
+  border-bottom: 2px solid black;
+  font-weight: 100;
   margin: 0;
+  padding: 20px 15px;
+}
+
+.reserve-item:nth-child(odd) {
+  background-color: #f2f2f2;
 }
