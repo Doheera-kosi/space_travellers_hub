@@ -1,13 +1,12 @@
 import './styles/App.css';
 import './styles/header.css';
 import './styles/Rockets.css';
-import './styles/missionslist.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Rockets from './components/Rockets';
 import Profiles from './components/Profile';
-import Missions from './components/Missions';
+import Missions from './components/missionspage/Missions';
 
 function App() {
   return (
