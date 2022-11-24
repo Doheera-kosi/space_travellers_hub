@@ -7,11 +7,11 @@
 
 ## Screenshots:
 
-![screenshot](./src/asset/rockets.PNG)
+![screenshot](./src/assets/rockets.PNG)
 
-![screenshot](./src/asset/missions.PNG)
+![screenshot](./src/assets/missions.PNG)
 
-![screenshot](./src/asset/myProfile.PNG)
+![screenshot](./src/assets/myProfile.PNG)
 
 
 ## Built With
