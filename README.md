@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 ## Usage
 ### Clone this repository
 > $ git clone https://github.com/Doheera-kosi/space_travellers_hub.git:
-> $ cd React_BookStore
+> $ cd space_travellers_hub
 
 ## Run project
 ### `$ npm install`
