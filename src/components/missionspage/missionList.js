@@ -1,4 +1,4 @@
-/* import React from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import './missionList.css';
 
@@ -16,4 +16,4 @@ MissionList.propTypes = {
   description: PropTypes.string.isRequired,
 };
 
-export default MissionList; */
+export default MissionList;

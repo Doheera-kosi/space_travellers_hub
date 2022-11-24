@@ -1,4 +1,4 @@
-/* import React, { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import MissionList from './missionList';
 import './Missions.css';
@@ -6,7 +6,6 @@ import { getMissions } from '../../redux/missions/missions';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missionsReducer.missions);
-  console.log(missions);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getMissions());
@@ -32,4 +31,4 @@ const Missions = () => {
   );
 };
 
-export default Missions; */
+export default Missions;

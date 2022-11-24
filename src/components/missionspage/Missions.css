@@ -1,4 +1,4 @@
-/* .table {
+.table {
   width: 90%;
   margin: 0 auto;
   table-layout: auto;
@@ -16,4 +16,5 @@
 .head {
   font-size: 1.3rem;
   padding: 10px;
-} */
+}
+
