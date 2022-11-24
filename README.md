@@ -1,1 +1,104 @@
-# space_travellers_hub
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Space Travelers Hub
+
+## Description the project.
+> Bookstore - An app that allows you to display a list of added books, add new book and remove a book, built using React, Redux
+
+## Screenshots:
+
+![screenshot](./src/asset/rockets.PNG)
+
+![screenshot](./src/asset/missions.PNG)
+
+![screenshot](./src/asset/myProfile.PNG)
+
+
+## Built With
+
+- Major Languages (HTML, CSS, JavaScript)
+- Framework/Libraries (React, Redux)
+- Technologies/Tools used:
+| `create-react-app tool`
+| `Webpack(Code Bundlng et al)`
+| `Babel (code transpiling)`
+| `Jest(for testing)`
+| `Git(version control)`
+| `ESLint(JavaScript linting)`
+| `Stylelint(style linting)`
+
+## Live Demo (Available)
+
+[Live Demo Link]()
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- A text editor(preferably Visual Studio Code) or any of your choice
+
+### Setup
+
+### Install
+- Git
+- Node
+- Text editor preferably VScode
+
+## Usage
+### Clone this repository
+> $ git clone https://github.com/Doheera-kosi/React_BookStore/:
+> $ cd React_BookStore
+
+## Run project
+### `$ npm install`
+Installs the modules and dependancies required to start the project
+
+### `npm start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Run tests
+### `npm run test`
+> Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+
+## Author
+
+👤 **Evans Kupour**
+
+- GitHub: [@githubhandle](https://github.com/Doheera-kosi/)
+- Twitter: [@twitterhandle](https://twitter.com/@KupourE/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Tashobya Israel**
+
+- GitHub: [@githubhandle](https://github.com/tashisrael)
+- Twitter: [@twitterhandle](https://twitter.com/tashisrael)
+- Linkedin: [@linkedinhandle](https://www.linkedin.com/in/tashobya-israel-6a66b0181/l
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

@@ -28,6 +28,14 @@
   font-size: 1rem;
 }
 
+.link:hover {
+  color: green;
+}
+
+.link:focus {
+  text-decoration: underline;
+}
+
 .vl {
   display: flex;
   align-items: center;
