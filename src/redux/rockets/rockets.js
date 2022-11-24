@@ -1,15 +1,17 @@
 import Axios from 'axios';
 
-// conts
 const FETCH_ROCKET = 'spaceTravelersHub/rockets/FETCH_ROCKET';
+const BOOK_ROCKET = 'spaceTravelersHub/rockets/BOOK_ROCKET';
 
-// actions
 const fetchRocket = (payload) => ({
   type: FETCH_ROCKET,
   payload,
 });
 
-//   apis-functions
+export const bookRocket = (payload) => ({
+  type: BOOK_ROCKET,
+  payload,
+});
 
 export const fetchRocketApi = () => async (dispatch) => {
   const returnValue = await Axios.get('https://api.spacexdata.com/v3/rockets');
@@ -29,14 +31,22 @@ export const fetchRocketApi = () => async (dispatch) => {
   dispatch(fetchRocket(rockets));
 };
 
-// state
+const reserveCancelRocket = (state, payload) => {
+  const newState = state.map((rocket) => {
+    if (rocket.id !== payload) return rocket;
+    return { ...rocket, reserved: !rocket.reserved };
+  });
+  return newState;
+};
+
 const initialState = [];
 
-// reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_ROCKET:
       return action.payload;
+    case BOOK_ROCKET:
+      return reserveCancelRocket(state, action.payload);
     default:
       return state;
   }
