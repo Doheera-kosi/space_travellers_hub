@@ -19,7 +19,7 @@ const Profiles = () => {
         </div>
       </div>
       <div>
-        <h1>My Missions</h1>
+        {/* <h1>My Missions</h1> */}
         <MissionProfile />
       </div>
     </main>
